@@ -1,0 +1,32 @@
+{
+  "name": "@justhxnry/randoms-cli",
+  "version": "1.0.0",
+  "description": "Generate random values from provided data in command line!",
+  "main": "./bin/cli.js",
+  "bin": {
+    "randoms": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustHxnry/randoms-cli.git"
+  },
+  "keywords": [
+    "random",
+    "generate",
+    "character",
+    "cli"
+  ],
+  "author": "JustHxnry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JustHxnry/randoms-cli/issues"
+  },
+  "homepage": "https://github.com/JustHxnry/randoms-cli#readme",
+  "dependencies": {
+    "@justhxnry/randoms": "^1.1.0",
+    "readline": "^1.3.0"
+  }
+}
